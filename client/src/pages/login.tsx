@@ -21,9 +21,9 @@ export default function Login() {
     <div className="min-h-screen flex items-center justify-center bg-muted/20 px-4">
       <div className="w-full max-w-md animate-in fade-in slide-in-from-bottom-8 duration-700">
         <div className="flex justify-center mb-8">
-          <div className="bg-primary text-primary-foreground p-3 rounded-2xl shadow-lg">
-            <Vote className="h-8 w-8" />
-          </div>
+          <div className="p-2">
+  <img src="/logo.svg" alt="SHIMS Logo" className="h-16 w-auto object-contain" />
+</div>
         </div>
         
         <Card className="border-border/50 shadow-xl">
