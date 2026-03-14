@@ -28,7 +28,7 @@ export default function Login() {
         
         <Card className="border-border/50 shadow-xl">
           <CardHeader className="space-y-2 text-center pb-8">
-            <CardTitle className="text-2xl font-bold tracking-tight">Welcome to UniVote</CardTitle>
+            <CardTitle className="text-2xl font-bold tracking-tight">SHIMS ELECTION</CardTitle>
             <CardDescription className="text-base">
               Enter your credentials to access the election portal
             </CardDescription>
