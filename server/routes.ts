@@ -11,6 +11,7 @@ export async function registerRoutes(
   httpServer: Server,
   app: Express
 ): Promise<Server> {
+  app.set('trust proxy', 1);
 
   // Setup Passport for authentication
   passport.use(new LocalStrategy(async (username, password, done) => {
