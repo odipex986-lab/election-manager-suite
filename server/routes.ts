@@ -173,7 +173,7 @@ export async function registerRoutes(
   setTimeout(async () => {
     const admin = await storage.getUserByUsername('admin');
     if (!admin) {
-      await storage.createUser({ username: 'admin', password: 'password', isAdmin: true });
+      await storage.createUser({ username: 'admin', password: 'MySecretPass123', isAdmin: true });
     }
     const student1 = await storage.getUserByUsername('student1');
     if (!student1) {
